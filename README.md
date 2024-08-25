@@ -41,8 +41,8 @@ Customer: Contains the information of customers
 ● Destination_airport – Arrival location
 ● Aircraft_id – ID of each aircraft in a brand
 ● Distance_miles – Distance between departure and arrival location
-Following operations should be performed:
-1.Write a query to create a route_details table using suitable data types for the fields, such as route_id, flight_num, origin_airport, destination_airport, aircraft_id, and distance_miles. Implement the check constraint for the flight number and unique constraint for the route_id fields. Also, make sure that the distance miles field is greater than 0.
+### Following operations should be performed:
+>1.Write a query to create a route_details table using suitable data types for the fields, such as route_id, flight_num, origin_airport, destination_airport, aircraft_id, and distance_miles. Implement the check constraint for the flight number and unique constraint for the route_id fields. Also, make sure that the distance miles field is greater than 0.
 2. Write a query to display all the passengers (customers) who have travelled in routes 01 to 25. Take data from the passengers_on_flights table.
 3. Write a query to identify the number of passengers and total revenue in business class from the ticket_details table.
 4. Write a query to display the full name of the customer by extracting the first name and last name from the customer table.
